@@ -13,6 +13,10 @@ public class UsoArrays3 {
 	}
 			for (double nuevodouble: aleatorio) {
 				System.out.println("Mi matriz  es " + nuevodouble);
+				System.out.println("Mi matriz  es " + nuevodouble);
+				System.out.println("Mi matriz  es " + nuevodouble);
+
+				
 			}
 		
 	}
