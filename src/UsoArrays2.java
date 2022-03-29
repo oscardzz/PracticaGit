@@ -24,10 +24,6 @@ public class UsoArrays2 {
 		String [] Paises1 = {"España","Alemania","Francia","Venezuela","Noruega"};
 		
 		
-		for (String nuevaString : Paises) {
-			System.out.println("País " + nuevaString);
-		}
-		
 		
 		
 		
