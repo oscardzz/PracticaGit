@@ -12,7 +12,7 @@ public class UsoArrays2 {
 		
 		
 		for(int i=0; i<paises.length; i++) {
-			System.out.println("Dime un país");
+			System.out.println("Dime un paÃ­s");
 			String pais = sc.nextLine();
 			paises[i]=pais;
 		}
@@ -21,21 +21,17 @@ public class UsoArrays2 {
 		String [] miMarca = new String[8];
 		String [] Paises = new String[5];
 		String [] miMarca1 = {"Ferrari","Macherati","Wolskwagen","Toyota","Mazda","Ford","Mclaren","Renault"};
-		String [] Paises1 = {"España","Alemania","Francia","Venezuela","Noruega"};
+		String [] Paises1 = {"EspaÃ±a","Alemania","Francia","Venezuela","Noruega"};
 		
 		
 		for (String nuevaString : Paises) {
-			System.out.println("País " + nuevaString);
+			System.out.println("PaÃ­s " + nuevaString);
 		}
 		
 		
 		
 		
-		/*
-		for (int i1 = 0; i1 < miMarca1.length; i1++) {
-			 System.out.println("mi matriz en el index "+ i1 + " es " +miMarca1[i1]);
-		}
-			*/
+		
 		for (String nuevoString: miMarca1) {
 			System.out.println("Marca " + nuevoString);
 		}
